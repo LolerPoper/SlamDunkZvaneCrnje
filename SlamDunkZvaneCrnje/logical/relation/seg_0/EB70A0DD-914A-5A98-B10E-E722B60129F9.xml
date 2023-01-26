@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODAJNI PREDSTAVNIK ADRPP FK" directorySegmentName="seg_0" id="EB70A0DD-914A-5A98-B10E-E722B60129F9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:32:47 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<sourcePk>0628C769-FDF4-894F-F468-E2E156AEF0EF</sourcePk>
+<targetPk>43CC6A00-A25F-4EDE-F151-4D2115869C42</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FF3B756E-5CC8-D8A1-0B5C-73A301227783</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4373D385-4531-17CE-B3CE-A0F8B6BB802D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,226 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5958612-C5C8-CA95-1115-09F4AEC89748" name="kupac">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>3241E6FC-1777-1230-F937-9E03E028501E</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<abbreviation>KPC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KPC_id_kupac" id="25EF4E7B-6401-23BA-6812-D213FB2D434C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>C7F4514C-59CC-EC29-4A03-130993CD5AFA</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPC_email" id="23FA9B77-E8AC-6A9C-8864-97F32D538E63">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>A33401DA-2B24-5795-54FC-5BFC00A77890</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPC_ime" id="128AF5CC-7A8F-4EB9-83B7-F8BD34233B76">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>0DC482D3-CC64-088C-4A45-AC9AB6C7BBC8</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPC_prezime" id="7A87DE2E-2950-A55E-2840-5C85B897F707">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>A6E4C035-7F81-7BDE-F588-20821BCA23D2</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPC_broj_telefona" id="4A2CB356-E598-811C-2BE8-7F22CDE1B959">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>200E8D9B-DEE6-EC6E-DD7B-9FF4328BAB61</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODAJNI_PREDSTAVNIK_email" id="D9D733AB-B877-8ADE-830B-ED8ED5495E78">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>7AF68653-9DEB-9C7B-575E-E4A2CB99CF56</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3162E7C0-E3FE-B27F-5D30-9E0DAF291307" referredColumn="83C3E7C2-8A51-CAD9-3007-E10720D61BBB"/>
+</associations>
+</Column>
+<Column name="TIM" id="EA84C2BA-73D8-367D-C362-194A84257487">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>8FAA51FB-6F2B-47C8-49B1-D1A8FBD733F6</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMOVI_id_tima" id="EDB5A9FD-F590-8653-617B-C6931EA2793B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>F4D3DEDC-FAD5-BF3B-7DE9-6A5083651EA2</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCDACF8C-34A1-DF84-4BD5-D6C502C2A5E6" referredColumn="5AA59426-04E1-F2CE-D04A-DC716B63CED5"/>
+</associations>
+</Column>
+<Column name="id_kartica" id="276DD059-4EC2-9369-D2B7-AD101F8CB360">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>CA3467DA-7A61-C8FF-0F34-E523E000D834</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2D27FA5-510E-D6D0-8522-8EADDFEE4819" name="KUPAC_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>31E31C57-023D-62AF-1C4A-A68E92187ABE</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25EF4E7B-6401-23BA-6812-D213FB2D434C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B451592A-4DE3-104D-2857-6653FEAFF423" name="KUPAC_KPC_email_UN">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>7DB4A145-860A-6949-0919-25CA69FD9E2E</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23FA9B77-E8AC-6A9C-8864-97F32D538E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96AEC45D-A9FC-1355-D0F2-1FDE32B94D0C" name="KUPAC_PKv3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>C417DF55-0374-03E8-3BA3-3E9A2959A2B1</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="276DD059-4EC2-9369-D2B7-AD101F8CB360"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA80F33C-9315-02E7-8C88-ED0EAFE30935" name="KUPAC_PKv1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>D2229673-E94B-77C8-626D-2B0D7A05C6B9</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA84C2BA-73D8-367D-C362-194A84257487"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BF7EB98-1AEA-B612-EE15-C2B177D98299" name="KUPAC__IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>33D9721A-CFBA-F7FC-0866-3C1EF0171A8E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EDB5A9FD-F590-8653-617B-C6931EA2793B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6721DEE-85E0-8019-7E7A-A1B21FAAC73E" name="KUPAC_PRODAJNI_PREDSTAVNIK_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>85346BE8-49C3-0BC7-1EC9-79AEEB1A313A</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9D733AB-B877-8ADE-830B-ED8ED5495E78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="919316FB-0103-3920-676D-0273CB82EE65" name="kupac_TIMOVI_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:59:31 UTC</createdTime>
+<generatorID>33D9721A-CFBA-F7FC-0866-3C1EF0171A8E</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDB5A9FD-F590-8653-617B-C6931EA2793B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

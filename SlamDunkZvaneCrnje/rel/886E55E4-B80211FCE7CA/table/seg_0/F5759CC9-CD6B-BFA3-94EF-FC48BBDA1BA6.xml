@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5759CC9-CD6B-BFA3-94EF-FC48BBDA1BA6" name="TIMOVI">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>B2D1D651-E6F6-89E3-E143-8C30E7CDC2AC</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<abbreviation>TIM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tima" id="5AA59426-04E1-F2CE-D04A-DC716B63CED5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>C459698D-B105-5482-C544-91FC9B989DB3</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_tima" id="DA38C4F3-E257-4BF5-DBF6-6B4B3F1FD427">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>A924F175-47B2-C5D3-B5F9-FD468A258E2A</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_igraca" id="01BDC901-57B4-26B7-293E-F615A1032133">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>A78094BB-03BF-B64E-75CF-54229182D540</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="popust" id="1ECAE906-6F45-48B1-84D0-28BA37888E13">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>BCE99D50-4A1B-7568-586E-44A0E4B34C02</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUPAC_tim" id="8DE721F3-BE97-A751-1C6F-E05F73CFB324">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>2C343B8F-5A60-9EE2-696C-CC9045AD860B</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD366CA6-1474-F541-EFFA-5DA09D0A9F97" referredColumn="EA84C2BA-73D8-367D-C362-194A84257487"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3344F73A-57E5-978F-373A-6E4D35F39592" name="TIM_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>4ADE3A77-228D-2B33-6FE1-F7A190F14363</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AA59426-04E1-F2CE-D04A-DC716B63CED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B17C300B-BE4F-E6F0-73C5-27DC396D4380" name="TIM__IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>33D9721A-CFBA-F7FC-0866-3C1EF0171A8E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8DE721F3-BE97-A751-1C6F-E05F73CFB324"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7D47C87-33FD-EF57-4123-CF2B96AAF11F" name="TIM_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>33D9721A-CFBA-F7FC-0866-3C1EF0171A8E</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DE721F3-BE97-A751-1C6F-E05F73CFB324"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

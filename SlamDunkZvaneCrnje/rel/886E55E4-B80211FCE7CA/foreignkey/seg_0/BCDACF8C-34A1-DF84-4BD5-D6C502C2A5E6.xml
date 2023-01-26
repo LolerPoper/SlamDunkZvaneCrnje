@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BCDACF8C-34A1-DF84-4BD5-D6C502C2A5E6" containerWithKeyObject="A5958612-C5C8-CA95-1115-09F4AEC89748" localFKIndex="919316FB-0103-3920-676D-0273CB82EE65" name="kupac_TIMOVI_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:59:31 UTC</createdTime>
+<generatorID>33D9721A-CFBA-F7FC-0866-3C1EF0171A8E</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<referredTableLongName>TIMOVI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5759CC9-CD6B-BFA3-94EF-FC48BBDA1BA6</referredTableID>
+<keyObject>3344F73A-57E5-978F-373A-6E4D35F39592</keyObject>
+<referredKeyID>3344F73A-57E5-978F-373A-6E4D35F39592</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_tima</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
