@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B5091A5-101A-F4C8-673D-770BABB5D986" name="KARTICA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:06:18 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3241E6FC-1777-1230-F937-9E03E028501E</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kartica" id="CA3467DA-7A61-C8FF-0F34-E523E000D834">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:07:06 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C417DF55-0374-03E8-3BA3-3E9A2959A2B1" name="KARTICA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:07:14 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA3467DA-7A61-C8FF-0F34-E523E000D834</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

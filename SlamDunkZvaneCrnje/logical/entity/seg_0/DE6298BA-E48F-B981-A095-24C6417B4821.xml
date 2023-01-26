@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE6298BA-E48F-B981-A095-24C6417B4821" name="NARUDZBA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:34:26 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NAR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id narudzba" id="E4A989F5-5448-A230-7659-E7B08CA98584">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:34:43 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum" id="07E4C723-5257-CF29-C0C6-41A5C30D7694">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:34:57 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme" id="658C181E-80FA-4CB5-7295-062DB53E82E6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:35:06 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naruceni artikl" id="E6070C50-23BE-3273-825B-5886795146AD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:35:13 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos" id="AB0CA553-DD8E-5A22-123C-B1BA180E9FCE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:35:24 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KUPAC KPC id kupac" id="C5416738-132B-88A3-0985-3F1809C6BC32">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:51:32 UTC</createdTime>
+<generatorID>50B302D1-B7F5-AAA8-91FB-9B9389E37512</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="true"/>
+</engineerTo>
+<referedAttribute>C7F4514C-59CC-EC29-4A03-130993CD5AFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C9FBC65-95D5-F502-8007-FBAE9D683F3B" name="NARUDZBA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:34:53 UTC</createdTime>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="886E55E4-2C2D-A03B-E569-B80211FCE7CA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4A989F5-5448-A230-7659-E7B08CA98584</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

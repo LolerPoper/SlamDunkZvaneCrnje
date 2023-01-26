@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B92A3E63-843C-5C05-8CD2-216EF30C1DAA" containerWithKeyObject="1B6200EB-686C-2BFA-DB63-A0DCB5D64500" localFKIndex="41CA84BC-1EAD-1233-3F1D-872284A034CF" name="PRODAJNI_PREDSTAVNIK_ADRPP_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:20:58 UTC</createdTime>
+<generatorID>EB70A0DD-914A-5A98-B10E-E722B60129F9</generatorID>
+<ownerDesignName>SlamDunkZvaneCrnje</ownerDesignName>
+<referredTableLongName>ADRPP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2FC16F72-D4E0-05EA-061A-0CBD3BF942A2</referredTableID>
+<keyObject>43437D59-C2AA-E42D-F8E9-AFAEEB09CEC0</keyObject>
+<referredKeyID>43437D59-C2AA-E42D-F8E9-AFAEEB09CEC0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_adresa_pp</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
